@@ -18,18 +18,18 @@ class App extends React.Component {
   }
 
   initialisieren() {
-    let fantasy = Modell.gruppeHinzufuegen("Fantasy")
-    let film1 = fantasy.artikelHinzufuegen("Der Dunkle Kristall")
-    film1.gekauft = true
-    fantasy.artikelHinzufuegen("Die Barbaren")
-    let scifi = Modell.gruppeHinzufuegen("Science Fiction")
-    let film2 = scifi.artikelHinzufuegen("Alita - Battle Angel")
-    film2.gekauft = true
-    scifi.artikelHinzufuegen("Mad Max - Fury Road")
-    let dokus = Modell.gruppeHinzufuegen("Dokumentationen")
-    let film3 = dokus.artikelHinzufuegen("Endgame - Blaupause für die Globale Versklavung")
-    film3.gekauft = true
-    dokus.artikelHinzufuegen("Die Kabale")
+    let neocaridinia = Modell.gruppeHinzufuegen("Neocaridinia")
+    let garnele1 = neocaridinia.artikelHinzufuegen("Blue Jelly")
+    garnele1.gekauft = true
+    neocaridinia.artikelHinzufuegen("Blue Dream")
+    let caradina = Modell.gruppeHinzufuegen("Caradina")
+    let garnele2 = caradina.artikelHinzufuegen("Black Bee")
+    garnele2.gekauft = true
+    caradina.artikelHinzufuegen("Red Bee")
+    let skyfish = Modell.gruppeHinzufuegen("Skyfish Shrimps")
+    let garnele3 = skyfish.artikelHinzufuegen("Red Mosura Tiger")
+    garnele3.gekauft = true
+    skyfish.artikelHinzufuegen("Blue Boa")
   }
 
   einkaufenAufZuKlappen() {
